@@ -35,11 +35,12 @@ public class Practical11 extends Person {
  * for the Practical11 class.
  */
 class Person {
+	
 	int age;
-
 	Person(int age) {
 		this.age = age;
 		System.out.println("Person's age is set to: " + this.age);
+		
 	}
 
 }
