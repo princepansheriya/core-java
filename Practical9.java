@@ -3,7 +3,7 @@ package com.corejava.java;
 /**
  * A simple Java program to demonstrate different ways of comparing integer
  * values. It includes comparisons using the equals() method, direct value
- * comparison, and Objects.equals().
+ * comparison, and compareTo() method.
  * 
  * @author prince
  * @version 1.0
@@ -22,7 +22,7 @@ public class Practical9 {
 
 		System.out.println("Using equals() method: " + isEqualUsingEquals);
 		System.out.println("Direct comparison of values: " + isEqualDirectComparison);
-		System.out.println("Using Objects.equals(): " + result);
+		System.out.println("Using compareTo: " + result);
 	}
 
 }
