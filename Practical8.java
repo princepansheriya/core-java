@@ -16,10 +16,10 @@ public class Practical8 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-//		interest is monthly count for this formula
-//		time is a yearly count for this formula
-		System.out.println("interest is monthly count for this formula");
-		System.out.println("time is a yearly count for this formula");
+//		Interest is monthly count for this formula
+//		Time is a yearly count for this formula
+		System.out.println("Interest is monthly count for this formula");
+		System.out.println("Time is a yearly count for this formula");
 		System.out.println("Enter amount = ");
 		float amount = scan.nextFloat();
 		System.out.println("Enter interest = ");
@@ -33,13 +33,13 @@ public class Practical8 {
 	}
 
 	/**
-	 * Method 'emiCount' calculates the Monthly EMI based on the given parameters -
-	 * amount, interest, and time.
+	 * Method 'emiCount' calculates the Monthly EMI based on the given parameters
+	 * Amount, interest, and time.
 	 */
 	public static float emiCount(float amount, float interest, float time) {
 		float value;
 		interest = interest / (12 * 100);
-		time = time * 12; // one month period
+		time = time * 12; // One month period
 		value = (amount * interest * (float) Math.pow(1 + interest, time)) / (float) (Math.pow(1 + interest, time) - 1);
 
 		return value;
