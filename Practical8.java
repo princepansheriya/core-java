@@ -33,8 +33,12 @@ public class Practical8 {
 	}
 
 	/**
-	 * Method 'emiCount' calculates the Monthly EMI based on the given parameters
-	 * Amount, interest, and time.
+	 * Calculates the Monthly EMI based on the given parameters.
+	 *
+	 * @param amount   The loan amount.
+	 * @param interest The annual interest rate.
+	 * @param time     The loan tenure in years.
+	 * @return The calculated Monthly EMI.
 	 */
 	public static float emiCount(float amount, float interest, float time) {
 		float value;
